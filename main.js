@@ -7,11 +7,23 @@ function changePic (){
 //Change the headings text color to blue
 //HINT: it's a class!
 
+var headings = document.getElementsByClassName('headings');
+for(var i = 0; i < headings.length; i++) {
+  headings[i].style.color = 'blue';
+}
 
 //Change the button's background-color to green
 
+var button = document.getElementById('button');
+console.log(button);
+button.style.backgroundColor = 'green';
 
-//Change the paragraph font to 'Tahona'
+//Change the paragraph font to 'Arial'
 
+var graph = document.getElementsByClassName('paragraph')[0];
+graph.style.fontFamily = 'Arial';
 
 //Change the entire documents background color to yellow
+
+var docBackground = document.getElementsByTagName('body')[0];
+docBackground.style.backgroundColor = 'yellow';
