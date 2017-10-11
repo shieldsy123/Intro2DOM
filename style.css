@@ -1,8 +1,22 @@
+#button {
+  /*edit here*/
+}
+
+.paragraph{
+  /*edit here*/
+}
+
+.headings{
+  /*edit here*/
+}
+
+
+/*Do Not Touch These Styles Below*/
 body {
   width: 80%;
   margin: auto;
 }
-h1 {
+h1, h2 {
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -24,7 +38,6 @@ button{
   margin: auto;
   margin-top: 20px;
   border: 2px solid gray;
-  background: white;
   box-shadow: 0 2px 3px 0px;
 }
 
